@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.moyan.dao.UserMapper">
+    <sql id="User" >
+
+    </sql>
+    <select id="queryUserByAccountAndPassword" resultType="com.moyan.domain.User">
+
+    </select>
+    <select id="queryUserByCondition" resultType="com.moyan.domain.User">
+
+    </select>
+    <select id="queryUserById" resultType="com.moyan.domain.User">
+
+    </select>
+    <select id="queryRoleByUserId" resultType="com.moyan.domain.Role">
+
+    </select>
+    <select id="queryUserPermission" resultType="com.moyan.domain.Permission">
+
+    </select>
+    <insert id="saveUser">
+
+    </insert>
+    <insert id="saveRoles">
+
+    </insert>
+    <update id="updateUser">
+
+    </update>
+    <delete id="deleteUser">
+
+    </delete>
+    <delete id="batchDeleteUser">
+
+    </delete>
+    <delete id="deleteRoles">
+
+    </delete>
+</mapper>
